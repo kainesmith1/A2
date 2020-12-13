@@ -125,10 +125,10 @@
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
-	width: 150px;
-	height: 100px;
+	width: 200px;
+	height: auto;
 	float: right;
-	margin-top: 100px;
+	margin-top: 150px;
 	margin-right: 450px;
 }
 #s1Text p
@@ -152,11 +152,17 @@
 	border-width: 1px;
 	border-color: black;
 	width: 350px;
-	height: 500px;
+	height: auto;
 	margin-left: 350px;
-	margin-top: 100px ;
+	margin-top: 150px ;
 }
 
+#projectimg1
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
 a:link 
 {
 	color: #cbf6e3;
