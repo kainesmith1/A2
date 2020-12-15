@@ -344,6 +344,57 @@ textarea
 	height: 150px;
 }
 
+#aboutmainimage
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: red;
+	width: auto;
+	height: auto;	
+}
+
+#abouttitle
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: blue;
+	width: auto;
+	height: auto;
+}
+
+#abouttext
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: green;
+	width: auto;
+	height: auto;
+}
+
+#aboutright p
+{
+	font-size: 14px;
+}
+#aboutleft
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: pink;
+	width: 49%;
+	height: 400px;
+}
+
+#aboutright
+{
+	border-style: solid;
+	border-width: 1px;
+	border-color: orange;
+	width: 49%;
+	height: auto;
+	float: right;
+	font-family: Andale Mono,AndaleMono,monospace;
+	text-align: center;
+}
 a:link 
 {
 	color: #cbf6e3;
