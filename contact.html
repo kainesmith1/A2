@@ -4,6 +4,7 @@
 	
 		<title>Kaine's Site - Contact</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<script type= "text/javascript" src="js/main.js"></script>
 	</head>
 	
 	<body>
@@ -32,16 +33,16 @@
 				
 					<form id = "form1">
 					<label class = "formlab" for "fullname" >Name:</label>
-					<input class = "Formboxes" name = "fullname" placeholder = "First"></input>
-					<input class = "Formboxes" name = "fullname" placeholder = "Last"></input>
+					<input class = "Formboxes" type = "text" name = "fullname" placeholder = "First"></input>
+					<input class = "Formboxes" type = "text" name = "fullname" placeholder = "Last"></input>
 					
 					<label class = "formlab" for "email" >Email:</label>
-					<input class = "Formboxes" name = "email"></input>
+					<input class = "Formboxes" type = "email" name = "email"></input>
 					
 					<label class = "formlab" for "Message" >Message:</label>
 					<textarea class = "Formboxes" rows="4" cols="20" name = "message" ></textarea>
 					
-					<input id = "submitbutton" type= "submit" value= "Submit"></input>
+					<input id = "submitbutton" type= "button" value= "Submit" onclick= "submit()"></input>
 					</form>
 				</div>
 				
